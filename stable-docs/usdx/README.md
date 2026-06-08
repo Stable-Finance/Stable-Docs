@@ -14,7 +14,7 @@ Stable brought new transparency to mortgage markets through blockchain, enabling
 
 ## Whitepaper
 
-You can find the [USDX Whitepaper here](../usdx-whitepaper/) in the docs.
+You can find the [USDX Whitepaper here](../../usdx-whitepaper/) in the docs.
 
 ## Reserves
 

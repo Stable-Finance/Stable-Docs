@@ -42,4 +42,4 @@ Credit lines can be repaid at any time. Repaying the debt burns that debt's asso
 
 ## Whitepaper
 
-You can find the USDX Whitepaper [here in the docs](../../usdx-whitepaper/) or in full in the [Whitepaper GitHub Repository](https://github.com/Stable-Finance/whitepaper/).
+You can find the USDX Whitepaper [here in the docs](../../../usdx-whitepaper/) or in full in the [Whitepaper GitHub Repository](https://github.com/Stable-Finance/whitepaper/).

@@ -10,7 +10,7 @@ Due to the interest payments and value of the collateral backing it, a $500,000 
 
 While it might seem that Stable could stop there, issuing any mortgage introduces certain risks that must be hedged to ensure USDX always has a treasury worth more than that $500,000 it represents. Fortunately, solutions for these risks have been developed over hundreds of years and can be implemented by Stable behind the scenes to maintain full collateralization.&#x20;
 
-Stable utilizes these tools in addition to the peg-maintainence mechanisms [outlined in the USDX Whitepaper](../../usdx-whitepaper/maintaining-usdx-peg-stability.md) to ensure USDX remains fully collateralized and liquid.&#x20;
+Stable utilizes these tools in addition to the peg-maintainence mechanisms [outlined in the USDX Whitepaper](../../../usdx-whitepaper/maintaining-usdx-peg-stability.md) to ensure USDX remains fully collateralized and liquid.&#x20;
 
 This page delves deeper into how risks are tranched and how mortgage capital markets are used to shield USDX from market volatility.
 
