@@ -6,11 +6,11 @@ description: This Page Covers How USDX Collateral Maintains a 1:1 Value with USD
 
 ## Overview
 
-Due to the interest payments and value of the collateral backing it, a $500,000 mortgage issued today is almost immediately worth more than $500,000. This means that if 500,000 USDX were minted to fund that mortgage, the mortgage would not only fully collateralize the USDX, but it would **over-collateralize** it. Additionally, the value of the real estate underlying the mortgage itself over-collateralizes the mortgage.
+Due to the interest payments and value of the collateral behind it, a $500,000 mortgage held in the reserve is almost immediately worth more than $500,000. This means that a mortgage carried in the USDX reserve not only fully collateralizes the USDX it backs, but **over-collateralizes** it. Additionally, the value of the real estate underlying the mortgage itself over-collateralizes the mortgage.
 
-While it might seem that Stable could stop there, issuing any mortgage introduces certain risks that must be hedged to ensure USDX always has a treasury worth more than that $500,000 it represents. Fortunately, solutions for these risks have been developed over hundreds of years and can be implemented by Stable behind the scenes to maintain full collateralization.&#x20;
+While it might seem that Stable could stop there, holding any mortgage introduces certain risks that must be hedged to ensure the USDX reserve always carries book value greater than the USDX it backs. Fortunately, solutions for these risks have been developed over hundreds of years and can be implemented by Stable behind the scenes to maintain full collateralization.&#x20;
 
-Stable utilizes these tools in addition to the peg-maintainence mechanisms [outlined in the USDX Whitepaper](../../../usdx-whitepaper/maintaining-usdx-peg-stability.md) to ensure USDX remains fully collateralized and liquid.&#x20;
+Stable utilizes these tools in addition to the peg-stability mechanisms [outlined in the USDX Whitepaper](../../../usdx-whitepaper/peg-stability.md) to ensure USDX remains fully collateralized and liquid.&#x20;
 
 This page delves deeper into how risks are tranched and how mortgage capital markets are used to shield USDX from market volatility.
 
@@ -20,7 +20,7 @@ This page delves deeper into how risks are tranched and how mortgage capital mar
 
 ### From Mortgages to MBS
 
-Suppose Stable and Stable Partners have issued 1,000 mortgage loans totaling $450,000,000. All loans are residential and fall under [qualified mortgage](https://www.investopedia.com/terms/q/qualified-mortgage.asp) guidelines. To fund these loans, 450,000,000 USDX have been minted.
+Suppose Stable and Stable Partners have sourced 1,000 mortgage loans totaling $450,000,000 into the USDX reserve. All loans are residential and fall under [qualified mortgage](https://www.investopedia.com/terms/q/qualified-mortgage.asp) guidelines, and they back $450,000,000 of USDX in circulation.
 
 The loans are then bundled and sent to a [mortgage-backed security](https://www.investopedia.com/terms/m/mbs.asp) (MBS) issuer—such as Fannie Mae. That issuer either buys the loans from Stable outright, or issues a MBS back to Stable.&#x20;
 

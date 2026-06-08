@@ -4,48 +4,62 @@
 
 1. **Introduction**
 
-> $35 trillion in untapped US home equity represents massive inefficiency that could be unlocked through asset-backed currency systems.
+> The U.S. dollar is a claim on a broad economic base whose largest single loan category is residential mortgages; today's stablecoins do not inherit that breadth.
 
-2. **Solution**
+2. **Background**
 
-> USDX is a private credit stablecoin that allows real estate owners to borrow against their properties through collateralized debt positions while maintaining ownership.
+> The U.S. mortgage market, agency MBS, and the current state of stablecoins — the context USDX is designed for.
 
-3. **Benefits**
+3. **System Overview**
 
-> Earning yield on USDX can help homeowners pay off their mortgage 5+ years early by making extra payments.
+> USDX is a multi-component protocol with four interacting subsystems: collateral, mint-and-redeem, yield, and the token-and-safety system.
 
-4. **Practical Overview of USDX**
+4. **Collateral Framework**
 
-> USDX enhances existing financial frameworks by providing 24/7 liquidity and making institutional-level basis trades accessible to retail users.
+> The reserve portfolio is composed of agency MBS, whole mortgage loans, tokenized mortgages, and liquid reserves, each operating within an allocation range.
 
-5. **Technical Overview of USDX**
+5. **Mint and Redeem**
 
-> Properties are tokenized as NFTs, given USDX credit lines, and borrowers receive USDX tokens while debt NFTs track the obligations. ZK technology maintains privacy.
+> Two minting surfaces — permissionless (stablecoin → USDX 1:1) and institutional (collateral → USDX) — and a tiered redemption queue against reserves.
 
-6. **Evaluation of Deposits and Depositors**
+6. **mUSDX: Staked USDX**
 
-> Properties undergo rigorous valuation, title verification, and documentation checks while owners face KYC, credit checks, and risk scoring.
+> A non-rebasing, exchange-rate staked wrapper that passes the mortgage portfolio's net yield to holders, with a cooldown for unstaking.
 
-7. **Maintaining USDX Peg Stability**
+7. **Peg Stability**
 
-> USDX maintains its $1 peg through overcollateralization, debt repayment incentives, market operations, and requiring interest payments in stablecoins.
+> A layered apparatus: primary redemption against reserves, repo-backed liquidity, liquidity-pool arbitrage, an autonomous peg-maintenance bot, and structural mortgage-repayment demand.
 
-8. **Rate Determination:**
+8. **Risk Management and the Loss Waterfall**
 
-> Real estate consistently offers lower borrowing rates than crypto markets, with traditional mortgage rates 150+ basis points below typical DeFi rates.
+> A four-step loss waterfall operating in strict seniority, routing losses through buffer mechanisms before they can impact USDX holders.
 
-9. **Roadmap**
+9. **The RATES Token**
 
-> Development progresses from testnet (Solana/EVM) through audits to mainnet launch.
+> Validators stake RATES to attest loan data gating new collateral, and RATES stakers provide the first-loss safety module.
 
-10. **Future Improvements**
+10. **Technical Architecture**
 
-> Planned expansions include international properties with local currency pegs, enhanced debt markets, and diverse yield payment options.
+> Smart-contract system, multi-provider oracle design for MBS and whole-loan pricing, and proof-of-reserve.
 
-11. **Conclusion**
+11. **Native Origination Channel**
 
-> Stable creates a paradigm shift enabling real estate owners to unlock liquidity while maintaining asset exposure through tokenization and structured risk management.
+> Sourcing newly originated mortgage collateral directly, aligning origination quality with reserve quality.
 
-12. **Appendix**
-13. **Glossary**
-14. **References**
+12. **Regulatory Framework**
+
+> A payment-stablecoin posture: licensed issuance, qualifying reserves, an enforceable redemption right, KYC/AML, and securities considerations.
+
+13. **Roadmap**
+
+> Phased development, each phase concluding with a publicly attested, audited protocol-level milestone.
+
+14. **Related Work**
+
+> How USDX relates to fiat-backed, crypto-collateralized, algorithmic, delta-neutral, and tokenized-RWA stablecoins.
+
+15. **Conclusion**
+16. **References**
+17. **Appendix A — Glossary**
+18. **Appendix B — Key Formulas and Parameters**
+19. **Appendix C — RATES Reference**

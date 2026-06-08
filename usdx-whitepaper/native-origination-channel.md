@@ -1,0 +1,9 @@
+# Native Origination Channel
+
+## 11. Native Origination Channel
+
+In addition to acquiring collateral in secondary markets, USDX can source newly originated mortgage collateral directly through a native onchain origination channel. Loans originated through this channel may be funded and denominated in USDX, and may enter the reserve at the moment of origination, which aligns the quality of newly created collateral with the quality of the reserve and lets the reserve grow with origination rather than only through secondary purchases.
+
+Origination follows the same controls as any reserve collateral: underwriting inputs include automated valuation model outputs from multiple vendors, title search, credit report, and verification of insurance and tax status; origination attestations from the RATES validator set (Section 9.1) are required before originated collateral enters the reserve; and the underwriting decision and credit file are retained by the licensed mortgage originator and available to regulators upon request. The legal instrument is a traditional note and recorded lien governed by applicable state law.
+
+The consumer-facing product through which Stable sources directly originated collateral — including its account structure, the homeowner-facing liquidity features it enables, and its servicing and payment architecture — is specified in a separate product paper and is outside the scope of this document. For the purposes of USDX, what matters is narrow: directly originated loans are a source of reserve collateral, underwritten and attested to the same standard as any other asset the reserve holds. Where a loan is funded and denominated in USDX, its scheduled repayments contribute to the structural demand described in Section 7.6; others may be funded in USDC or another supported stablecoin.

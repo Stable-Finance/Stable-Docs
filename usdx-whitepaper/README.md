@@ -8,9 +8,9 @@ Welcome to the USDX Whitepaper! Brief descriptions of each section of the Whitep
 
 ## USDX
 
-**The Private Credit Stablecoin**
+**A Dollar Built on the U.S. Mortgage Market**
 
-### May 2025 - v0.1
+### May 2026 - v0.2
 
 Winston Robson
 
