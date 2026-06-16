@@ -2,7 +2,7 @@
 
 ## 9. The RATES Token
 
-RATES is a component of the USDX protocol rather than a standalone product. This paper describes RATES only to the extent necessary to understand USDX. A separate RATES paper specifies distribution, supply schedule, and detailed tokenomics.
+RATES is a component of the USDX protocol rather than a standalone product. This paper describes RATES only to the extent necessary to understand USDX. A separate [RATES paper](../rates-whitepaper/) specifies distribution, supply schedule, and detailed tokenomics.
 
 RATES has three core utilities within the USDX system:
 

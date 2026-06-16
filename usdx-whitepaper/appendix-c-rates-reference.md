@@ -2,11 +2,11 @@
 
 ## 19. Appendix C — RATES Reference
 
-RATES is the protocol's validator, safety-module, and governance token. Its full tokenomics — initial supply, distribution, emissions schedule, activity gating, buyback-and-burn, permanent protocol capital, and supply dynamics — are specified in the separate **RATES paper**. This appendix carries only the parameters the USDX body references directly.
+RATES is the protocol's validator, safety-module, and governance token. Its full tokenomics — initial supply, distribution, emissions schedule, activity gating, buyback-and-burn, permanent protocol capital, and supply dynamics — are specified in the separate [**RATES paper**](../rates-whitepaper/). This appendix carries only the parameters the USDX body references directly.
 
-**Genesis supply.** RATES has a fixed initial supply of **1,000,000,000 tokens (1B)** at genesis. Additional supply is created post-genesis only via the loss waterfall (Section 8) and a geometrically decaying emissions schedule. The annual emission rate decays at a 0.88 ratio — from roughly 12% in Year 1 to roughly 3.80% by Year 10 — and cumulative supply asymptotes at approximately 2.64B tokens, as illustrated below. The precise schedule and its asymptotic supply cap are specified in the RATES paper.
+**Genesis supply.** RATES has a fixed initial supply of **1,000,000,000 tokens (1B)** at genesis. Additional supply is created post-genesis only via the loss waterfall (Section 8) and a geometrically decaying emissions schedule. The annual emission rate decays at a 0.88 ratio — from roughly 12% in Year 1 to roughly 3.80% by Year 10 — and cumulative supply asymptotes at exactly 2.0B tokens, as illustrated below. The precise schedule and its asymptotic supply cap are specified in the RATES paper.
 
-<figure><img src="../.gitbook/assets/emissions_diagram.png" alt="RATES emissions and total supply trajectory: annual emission rate decays from ~12% in Year 1 to ~3.80% by Year 10, while cumulative supply rises from 1.0B at genesis toward a ~2.64B asymptote"><figcaption><p>RATES emissions and total supply trajectory. Annual rate decays at a 0.88 ratio; cumulative supply asymptotes at ~2.64B.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/emissions_diagram.png" alt="RATES emissions and total supply trajectory: annual emission rate decays from ~12% in Year 1 to ~3.80% by Year 10, while cumulative supply rises from 1.0B at genesis toward a 2.0B asymptote"><figcaption><p>RATES emissions and total supply trajectory. Annual rate decays at a 0.88 ratio; cumulative supply asymptotes at 2.0B.</p></figcaption></figure>
 
 **Tranche coverage bands.** Each loss-waterfall tranche (Section 8.2) operates within a coverage band, expressed as a percentage of outstanding USDX supply:
 
