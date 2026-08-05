@@ -49,9 +49,9 @@ These are the official contract addresses of USDX, EURX, and STABLE for the main
 
 Addresses for STABLE mainnet deployments are listed below by network. STABLE is a memecoin launched by Stable as part of our participation in the [Pump Fun Build in Public Hackathon](https://x.com/trystable/status/2021962509251497998?s=20). STABLE holders and traders earn POINTS and unique multipliers as part of Stable's [Points Program](https://app.trystable.co/points).
 
-| Blockchain | STABLE Mainnet Address                       | Block Explorer Link                                                                                                                    | Trade Terminal Link                                                                                                              |
-| ---------- | -------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| Solana     | 4AjvPXMn8YZG9saAVJvcWspg73oTFf2JmU4in4Xgpump | [solscan.io/token/4AjvPXMn8YZG9saAVJvcWspg73oTFf2JmU4in4Xgpump](https://solscan.io/token/4AjvPXMn8YZG9saAVJvcWspg73oTFf2JmU4in4Xgpump) | [pump.fun/coin/4AjvPXMn8YZG9saAVJvcWspg73oTFf2JmU4in4Xgpump](https://pump.fun/coin/4AjvPXMn8YZG9saAVJvcWspg73oTFf2JmU4in4Xgpump) |
+| Blockchain | STABLE Mainnet Address                       | Block Explorer Link                                                                 | Trade Terminal Link                                                            |
+| ---------- | -------------------------------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| Solana     | 4AjvPXMn8YZG9saAVJvcWspg73oTFf2JmU4in4Xgpump | [solscan.io](https://solscan.io/token/4AjvPXMn8YZG9saAVJvcWspg73oTFf2JmU4in4Xgpump) | [pump.fun](https://pump.fun/coin/4AjvPXMn8YZG9saAVJvcWspg73oTFf2JmU4in4Xgpump) |
 
 ### USDX
 
