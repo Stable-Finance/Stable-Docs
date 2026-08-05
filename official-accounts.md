@@ -82,9 +82,9 @@ EURX is the Euro version of USDX. EURX is still in early testing.&#x20;
 
 Addresses for EURX mainnet deployments are listed below by network.&#x20;
 
-| Blockchain Network | EURX Mainnet Address                       | Block Explorer Link                                                                   | Trade Terminal Link                                                                                                                                                          |
-| ------------------ | ------------------------------------------ | ------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Base               | 0x81F2678D8a08c40c50D90d2d8AF7a574ED957fC3 | [basescan.org](https://basescan.org/token/0x81F2678D8a08c40c50D90d2d8AF7a574ED957fC3) | [aerodrome.finance](https://aerodrome.finance/swap?from=0x60a3e35cc302bfa44cb288bc5a4f316fdb1adb42\&to=0x81f2678d8a08c40c50d90d2d8af7a574ed957fc3\&chain0=8453\&chain1=8453) |
+| Blockchain Network | EURX Mainnet Address                       | Block Explorer Link                                                                   | Trade Terminal Link                                                                                                                                                                         |
+| ------------------ | ------------------------------------------ | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Base               | 0x81F2678D8a08c40c50D90d2d8AF7a574ED957fC3 | [basescan.org](https://basescan.org/token/0x81F2678D8a08c40c50D90d2d8AF7a574ED957fC3) | \[LOW SUPPORT] [aerodrome.finance](https://aerodrome.finance/swap?from=0x60a3e35cc302bfa44cb288bc5a4f316fdb1adb42\&to=0x81f2678d8a08c40c50d90d2d8af7a574ed957fc3\&chain0=8453\&chain1=8453) |
 
 ### Mortgage NFT Collection
 
