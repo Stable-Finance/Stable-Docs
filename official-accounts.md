@@ -8,15 +8,25 @@ description: >-
 
 ## Stable Social Channels
 
-| Platform    | Stable's Handle  | Link                                                                                   | Notes                |
-| ----------- | ---------------- | -------------------------------------------------------------------------------------- | -------------------- |
-| X (Twitter) | @stable\_tweets  | [@trystable](https://x.com/trystable)                                                  |                      |
-| Telegram    | /stablenew       | [t.me/stablenew](https://t.me/stablenew)                                               | Announcement channel |
-| Telegram    | /stablegroupchat | [t.me/stablegroupchat](https://t.me/stablegroupchat)                                   | Community chat       |
-| Instagram   | @trystable       | [@trystable](https://instagram.com/trystable)                                          |                      |
-| YouTube     | @trystable       | [@trystable](https://youtube.com/@trystable)                                           |                      |
-| LinkedIn    | stable-finance   | [linkedin.com/company/stable-finance](https://www.linkedin.com/company/stable-finance) |                      |
-| Website     | trystable.co     | [trystable.co](https://trystable.co/)                                                  | Stable homepage      |
+| Platform    | Stable's Handle   | Link                                                                                   | Notes                        |
+| ----------- | ----------------- | -------------------------------------------------------------------------------------- | ---------------------------- |
+| X (Twitter) | @stable\_tweets   | [x.com/trystable](https://x.com/trystable)                                             |                              |
+| Telegram    | /stablenew        | [t.me/stablenew](https://t.me/stablenew)                                               | News Channel and Chat Portal |
+| Telegram    | /stablegroupchat  | [t.me/stablegroupchat](https://t.me/stablegroupchat)                                   | Community Chat               |
+| Instagram   | @trystable        | [instagram.com/trystable](https://instagram.com/trystable)                             |                              |
+| YouTube     | @trystable        | [youtube.com/@trystable](https://youtube.com/@trystable)                               |                              |
+| LinkedIn    | stable-finance    | [linkedin.com/company/stable-finance](https://www.linkedin.com/company/stable-finance) |                              |
+| Website     | trystable.co      | [trystable.co](https://trystable.co/)                                                  | Stable Homepage              |
+| App         | app.trystable.co  | [app.trystable.co](https://app.trystable.co)                                           | Stable App                   |
+| Stable Docs | docs.trystable.co | [docs.trystable.co](https://docs.trystable.co)                                         | Stable Docs                  |
+
+## Stable Team Social Accounts
+
+| Team Member       | Platform | Handle         | Link                                                     | Notes                     |
+| ----------------- | -------- | -------------- | -------------------------------------------------------- | ------------------------- |
+| Founder (Winston) | X        | @stablewinston | [@stablewinston](https://x.com/stablewinston)            | Founder personal X        |
+| Founder (Winston) | Telegram | @stablewinston | [https://t.me/stablewinston](https://t.me/stablewinston) | Founder personal Telegram |
+| Team              | Email    | m@trystable.co | [m@trystable.co](mailto:m@trystable.co)                  | Team Email                |
 
 ## Mainnet Contract Addresses
 
