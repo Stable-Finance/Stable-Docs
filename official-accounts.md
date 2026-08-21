@@ -4,7 +4,28 @@ description: >-
   Stable
 ---
 
-# Official Accounts
+# Official Accounts & Contracts
+
+## Verify before you transact
+
+This page is the canonical directory for Stable's websites, social accounts, token contracts, mortgage NFT collection, and supported oracle feeds.
+
+<a href="https://trystable.co" class="button primary">Stable website</a> <a href="https://app.trystable.co" class="button secondary">Open the app</a> <a href="https://trystable.co/reserves" class="button secondary">View reserves</a>
+
+{% hint style="danger" %}
+**Protect your assets.** Only trust the domains and addresses listed on this page. Verify the complete contract address on the relevant block explorer before signing a transaction. Stable team members will never ask for your seed phrase or private key.
+{% endhint %}
+
+## Quick reference
+
+<table data-view="cards">
+  <thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead>
+  <tbody>
+    <tr><td><strong>Mainnet contracts</strong></td><td>Verify USDX, mUSDX, EURX, and STABLE deployments.</td><td><a href="#mainnet-contract-addresses">#mainnet-contract-addresses</a></td></tr>
+    <tr><td><strong>Mortgage NFT collection</strong></td><td>Verify the onchain collection representing Stable Home Debt assets.</td><td><a href="#mortgage-nft-collection">#mortgage-nft-collection</a></td></tr>
+    <tr><td><strong>Price feed oracles</strong></td><td>Find supported USDX and mUSDX oracle addresses.</td><td><a href="#price-feed-oracles">#price-feed-oracles</a></td></tr>
+  </tbody>
+</table>
 
 ## Stable Website and Apps
 

@@ -1,58 +1,49 @@
 ---
-description: This Page Outlines How USDX is Minted
+description: Learn how individuals and approved institutions mint or acquire USDX.
 ---
 
 # Minting USDX
 
-## Context
+## Access USDX with liquid or real-world assets
 
-Anyone can mint or swap for USDX by depositing approved assets such as stablecoins or dollars. Partners who have completed KYB/KYC can also deposit mortgages, mortgage-backed securities (MBS), and real estate for approval. Partners may have Pre-Approval or Approval Authority that can rapidly accelerate minting against asset deposits. If you are a new partner, do [reach out through our partner portal](https://forms.gle/94f8QiwnDVgi8A9o7); we look forward to welcoming you soon.
+Users can acquire USDX by depositing approved stablecoins through Stable's app. Approved institutional partners can also submit mortgages, mortgage-backed securities, and tokenized real estate for underwriting and eligible issuance.
 
-Stable may limit the amount of assets that can be accepted by type, location, or otherwise for any or all of the asset classes listed below.
+<a href="https://app.trystable.co/mint" class="button primary">Open mint</a> <a href="https://forms.gle/94f8QiwnDVgi8A9o7" class="button secondary">Partner with Stable</a>
 
-## Minting USDX
+{% hint style="warning" %}
+Stable may limit accepted assets by type, jurisdiction, concentration, liquidity, or risk profile. Institutional asset deposits require approval and applicable KYC/KYB checks.
+{% endhint %}
 
-USDX can be minted or swapped for through Stable's app with the following assets.&#x20;
+## Supported issuance paths
 
-### Stablecoins
+<table data-view="cards">
+  <thead><tr><th></th><th></th></tr></thead>
+  <tbody>
+    <tr><td><strong>Stablecoins</strong></td><td>Swap approved assets such as USDC or USDT for USDX through the app, subject to network availability.</td></tr>
+    <tr><td><strong>Mortgages</strong></td><td>Approved partners may deposit eligible residential, commercial, farm, or land loans after underwriting.</td></tr>
+    <tr><td><strong>Mortgage-backed securities</strong></td><td>Eligible agency, private-label, partner-issued, or Stable-tokenized MBS may be accepted after review.</td></tr>
+    <tr><td><strong>Real estate equity</strong></td><td>Approved tokenized property equity may support a conditional line of credit for on-demand USDX issuance.</td></tr>
+  </tbody>
+</table>
 
-Stablecoins that can be swapped or deposited to mint USDX include:
+## Mortgage eligibility
 
-* USDT
-* USDC
+Eligible mortgage assets may include:
 
-### Mortgages
+- Mortgages originated by approved Stable partners.
+- Mortgages previously reviewed and approved by Stable.
+- Qualifying Fannie Mae, Freddie Mac, and Ginnie Mae mortgages.
+- Select U.S. non-qualified, commercial, farm, and land loans.
 
-Mortgage assets that can be deposited to mint USDX include:
+## Mortgage-backed securities
 
-* Pre-Approved Mortgages
-  * Mortgages originated by a Stable Partner
-  * Approved Mortgages (Stable has already reviewed)
-* Fannie Mae, Freddie Mac, and Ginnie Mae Qualified Mortgages
-* Select Non-Qualified Mortgages (US)
-* Select commercial, farm, and land loans (US)
+Eligible securities may include Stable-tokenized MBS, approved partner-issued MBS, Uniform Mortgage-Backed Securities, and select private-label MBS.
 
-### Mortgage Backed Securities (MBS)
+## Real estate equity
 
-MBS that can be deposited to mint USDX include: &#x20;
+Real estate assets must be tokenized through Stable and may require several business days for underwriting and documentation. Approval does not immediately mint USDX; it establishes an eligible conditional credit line that can be drawn over a defined period through a [Stable Home Account](https://account.trystable.co/).
 
-* Pre-Approved MBS
-  * Stable Tokenized MBS
-  * MBS issued by a Stable Partner
-  * Uniform Mortgage-Backed Securities (UMBS)
-* Select Private-Label MBS
-
-### Real Estate (Equity)
-
-Real estate assets must be tokenized by Stable and can take several business days to process once they have been submitted for deposit. Pre-Approved assets move faster.
-
-Real estate that can be deposited to mint USDX include:
-
-* Pre-Approved Real Estate
-  * By a Stable Partner with Approval Authority
-  * Real Estate with Pre-Approved Flag on Stable's Platform
-* US Real Estate Assets
-* Select unencumbered real estate equity
-
-Real estate that is approved to mint USDX does not immediately mint USDX, rather it opens a conditional line of credit that can be used to mint USDX on demand over a set period. See [Stable Home Accounts](https://account.trystable.co/).
+{% hint style="info" %}
+For the current reserve composition and issuance metrics, visit [Reserves & Transparency](https://trystable.co/reserves).
+{% endhint %}
 
