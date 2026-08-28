@@ -1,55 +1,61 @@
 ---
-description: Stable Tokenizes Mortgages Both At and After Origination
+description: Tokenize newly originated or existing mortgage assets through Stable's institutional workflow.
 ---
 
 # Tokenize Mortgages
 
-## Overview
+## Mortgage assets, ready for onchain settlement
 
-Stable provides brokers, bankers, and other institutions with the ability to originate, fund, and liquidate mortgages on-demand at any time 24/7/365 without changing anything.
+Stable enables brokers, lenders, banks, funds, and other approved institutions to originate, fund, tokenize, and manage mortgage assets through digital infrastructure. Institutions can use Stable's origination platform or integrate Stable into an existing loan origination system.
 
-Tokenization may sound complicated, but its not. In fact, nothing has changed except everything is more efficient. Stable both offers our own platform for loan origination and has partnered with existing providers to integrate without lift ("Powered by Stable"). Stable makes things faster, period.
+<a href="https://forms.gle/94f8QiwnDVgi8A9o7" class="button primary">Become a partner</a> <a href="stable-underwriting-guidelines.md" class="button secondary">Review underwriting</a>
 
-Please find Stable's [underwriting guidelines here](stable-underwriting-guidelines.md). If you are a new partner, do [reach out through our partner portal](https://forms.gle/94f8QiwnDVgi8A9o7); we look forward to welcoming you soon.
+{% hint style="info" %}
+Tokenization does not replace underwriting, title, legal, servicing, or regulatory requirements. Stable coordinates the digital asset layer with the documentation and verification required for each mortgage.
+{% endhint %}
 
-### Tokenize a New Mortgage
+## New and existing mortgages
 
-Newly issued mortgages are tokenized from the point of origin through integration of Stable's API into the Originator's loan origination software (LOS) or by their broker who has partnered with Stable.
+**New originations** can be tokenized from origination through Stable's platform or an integration with an approved partner's loan origination software.
 
-### Tokenize an Existing Mortgage
+**Existing mortgages** held by a broker, bank, fund, or other eligible institution can be submitted for review, tokenization, and access to Stable's liquidity network.
 
-Mortgage loans that have already been originated and are sitting on the books or balance sheet of a broker, bank, fund, or other holder can easily be tokenized and liquidated into the Stable ecosystem.
+## Tokenization workflow
 
-#### Steps
+{% stepper %}
+{% step %}
+### Enter mortgage details
 
-1. Enter Mortgage Details
-2. Instant Mortgage Page Creation
-3. Verify Ownership & Prepare Documents
-4. Digital Signing & Remote Notarization
-5. Receive Tokenized Property Token
+Submit the property address and relevant mortgage documentation. Stable combines multiple data sources to create an initial asset record and asks the submitting institution to confirm key details.
+{% endstep %}
 
-#### Enter Mortgage Details
+{% step %}
+### Create the asset page
 
-Tokenizing one or more mortgages starts by simply entering in the property address and documents of each mortgage. Stable combines multiple data sources from there before creating an asset specific interface and asking the tokenizer to confirm some details.
+Once details are confirmed, Stable creates a dedicated asset page. The page presents the mortgage's key attributes and provides an interface for managing the tokenized asset throughout its lifecycle.
+{% endstep %}
 
-#### Instant Asset Page Creation
+{% step %}
+### Verify ownership and prepare documents
 
-For users who have tokenized mortgages with Stable before, each mortgage they tokenize will be added to their portfolio and given a unique URL where a visual interface will describe the mortgage asset.&#x20;
+The submitting party verifies ownership of the mortgage and its ownership structure. Stable then prepares the required legal documents for the relevant jurisdiction. Having complete mortgage records available helps avoid delays.
+{% endstep %}
 
-That page will be generated within minutes of documents being uploaded for mortgage asset where details have been confirmed. The page highlights key aspects of the mortgage asset and acts as an interface where the owner can manage the mortgage's NFT over the life of the asset.
+{% step %}
+### Sign and notarize
 
-#### Verify Ownership & Prepare Documents
+Required documents are signed and notarized. This can be completed in person or through supported remote online notarization providers where available.
+{% endstep %}
 
-Once the Asset Page has been populated, the tokenizer is asked to verify their ownership of the mortgage and the type of ownership (individual, joint, entity, etc...).&#x20;
+{% step %}
+### Receive the tokenized asset
 
-Upon confirmation, Stable automatically generates all necessary legal documents tailored to the local jurisdiction. The tokenizer should have all documents related to the mortgage on hand to avoid delays.
+After verification and execution are complete, an NFT is minted to represent the mortgage asset. The approved asset can then be submitted to Stable for eligible liquidity and settlement workflows.
+{% endstep %}
+{% endstepper %}
 
-#### Digital Signing & Remote Notarization
+## Before you begin
 
-While this step can be completed in-person, Stable works with multiple recommended digital notary services which enables the tokenizer to immediately legalize the tokenization.
-
-#### Receive Tokenized Asset Token
-
-All done. The tokenizer is minted an NFT to represent each mortgage asset that they tokenized.
-
-The tokenizer can now simply submit the asset(s) to Stable for immediate liquidation.&#x20;
+- Review the [Stable Underwriting Guidelines](stable-underwriting-guidelines.md).
+- Gather the mortgage, title, valuation, ownership, and servicing documentation.
+- Use the [Partner Portal](../partner-portal.md) to begin institutional onboarding.

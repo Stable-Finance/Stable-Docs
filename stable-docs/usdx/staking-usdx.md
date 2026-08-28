@@ -1,31 +1,41 @@
 ---
-description: This Page Outlines How to Stake USDX and the mUSDX Liquid Staking Token
+description: Understand how staking USDX for mUSDX accrues mortgage-backed yield.
 ---
 
 # Staking USDX
 
-## Context
+## Earn through the mUSDX exchange rate
 
-Users are able to stake their USDX for mUSDX and earn yield generated from USDX's liquidity provision, packaging fees, and payments from the mortgage assets in the USDX treasury reserves. Yield accrues in the mUSDX vault as USDX and is reflected in the value of mUSDX.
+Staking USDX mints mUSDX, a non-rebasing token that represents a share of the staking vault. Yield from eligible protocol activity and mortgage assets accrues to the vault as USDX, increasing the amount of USDX redeemable for each mUSDX over time.
 
-## Overview
+<a href="https://app.trystable.co/stake" class="button primary">Stake USDX</a> <a href="https://trystable.co/reserves" class="button secondary">View reserves</a>
 
-When a user stakes USDX they are minting mUSDX ("Staked USDX") which is returned to their wallet and earns yield from the mortgage assets and market activity backing USDX. Yield accrues to the mUSDX pool in the form of USDX, increasing the value of each mUSDX. Yield compounds daily.
+{% hint style="warning" %}
+Displayed APY is variable, not guaranteed, and may change with protocol revenue, mortgage cash flows, reserve composition, and market conditions. Staking may not be available on every supported network.
+{% endhint %}
 
-For example, 1,000 USDX is staked on day 0, and, for simplicity, the mUSDX yield is 10% forever:
+## How mUSDX works
 
-<table><thead><tr><th>Days</th><th>Total mUSDX</th><th>Total USDX in Vault</th><th data-type="number">Value of 1 mUSDX</th></tr></thead><tbody><tr><td>100</td><td>1,000</td><td>1,027.80</td><td>1.0278</td></tr><tr><td>365</td><td>1,000</td><td>1,105.16</td><td>1.10516</td></tr><tr><td>730</td><td>1,000</td><td>1,221.36</td><td>1.22136</td></tr><tr><td>1,095</td><td>1,000</td><td>1,331</td><td>1.331</td></tr></tbody></table>
+1. A user deposits USDX into the staking vault.
+2. The vault mints mUSDX at the current exchange rate.
+3. Yield retained by the vault increases the USDX value of each mUSDX.
+4. The user initiates an unstake and receives USDX after the cooldown period.
 
-## Important to Note
+Users do not need to claim recurring rewards. The mUSDX token balance remains unchanged while its exchange rate against USDX is designed to increase as yield enters the vault.
 
-* Users do NOT need to do anything but hold mUSDX to receive rewards
-* Rewards aren’t earned directly by mUSDX holders; rather, they accumulate within the staking contract, which results in the "value" of mUSDX rising over time.
-  * Users are able to unstake their mUSDX at any time and receive an amount USDX reflecting the staked amount plus any increase in value of mUSDX from the time the user staked until unstaking
-* The amount of mUSDX a user will receive when staking USDX will depend on the current value of mUSDX
-  * At launch the value will be 1 mUSDX = 1 USDX, but mUSDX is expected to slowly increase in value as protocol level rewards are transferred into the Staking smart contract
-  * Therefore, while a staker might receive less mUSDX than USDX staked, the value of the mUSDX will always be equal to or greater than the USDX they staked
-* Unstaking USDX activates a cooldown period of 7 days. USDX will be available to withdraw after that period
+## Illustrative compounding
 
-## Note: Staking is not yet enabled on some chains.
+The following example assumes a constant 10% annual yield solely to demonstrate exchange-rate mechanics. It is not a forecast or promised return.
 
-<br>
+<table><thead><tr><th>Days</th><th>Total mUSDX</th><th>Total USDX in vault</th><th data-type="number">Value of 1 mUSDX</th></tr></thead><tbody><tr><td>100</td><td>1,000</td><td>1,027.80</td><td>1.0278</td></tr><tr><td>365</td><td>1,000</td><td>1,105.16</td><td>1.10516</td></tr><tr><td>730</td><td>1,000</td><td>1,221.36</td><td>1.22136</td></tr><tr><td>1,095</td><td>1,000</td><td>1,331</td><td>1.331</td></tr></tbody></table>
+
+## Key mechanics
+
+- The amount of mUSDX received depends on the exchange rate when staking.
+- A user may receive fewer mUSDX than the USDX deposited, while receiving the equivalent USDX value at that exchange rate.
+- Yield accumulates inside the staking contract rather than being distributed as additional mUSDX tokens.
+- Unstaking initiates a **7-day cooldown** before USDX is available to withdraw.
+
+{% hint style="info" %}
+Review [Risk & Transparency](risk-and-transparency/) and verify the current staking terms in the app before transacting.
+{% endhint %}

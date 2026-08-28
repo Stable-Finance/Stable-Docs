@@ -1,26 +1,36 @@
+---
+description: Evaluate USDX reserves, underwriting, monitoring, liquidity, and protocol risk.
+---
+
 # Risk & Transparency
 
-This section documents how USDX is backed, how collateral is underwritten and monitored, and the risks that affect USDX holders. It is intended to be read by integrators, lending markets, risk teams, and anyone looking to hold or build against USDX.
+## Verifiable collateral. Explicit risk controls.
 
-### Scope
+This section documents what backs USDX, how collateral is underwritten and monitored, and the risks that affect USDX holders. It is intended for institutional allocators, integrators, lending markets, and risk teams evaluating the protocol.
 
-The pages in this section describe **USDX on Solana**. USDX is also deployed to Base, Monad, and Ethereum, but those deployments are treasury-isolated per chain and are not bridgeable to or from Solana today — so risks affecting those chains do not flow to Solana USDX holders, and vice versa. Where this section makes claims about "USDX," it means USDX on Solana unless otherwise noted.
+<a href="https://trystable.co/reserves" class="button primary">View live reserves</a> <a href="../../../official-accounts.md#mainnet-contract-addresses" class="button secondary">Verify contracts</a>
 
-### In this section
+{% hint style="info" %}
+Unless noted otherwise, this section describes **USDX on Solana**. Deployments on Base, Monad, and Ethereum are treasury-isolated by chain and are not currently bridgeable to or from Solana.
+{% endhint %}
 
-* [**Reserves & Proof of Reserves**](reserves-and-proof-of-reserves.md) — what backs USDX on Solana today, how USDC minting flows into reserves, custody, and how reserves can be verified.
-* [**Underwriting & Risk Management**](underwriting-and-risk-management.md) — how Stable Home Accounts are approved, how mortgage collateral is diligenced, ongoing monitoring, and how the USDX/USDC peg is defended on Solana.
-* [**Risk Disclosures**](risk-disclosures.md) — the categorized risk surface: credit, market, liquidity, peg, counterparty, regulatory, governance, and smart contract dependencies.
+## Evaluate the protocol
 
-### Further reading
+<table data-view="cards">
+  <thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead>
+  <tbody>
+    <tr><td><strong>Reserves & proof</strong></td><td>Review reserve composition, custody, minting flows, and verification methods.</td><td><a href="reserves-and-proof-of-reserves.md">reserves-and-proof-of-reserves.md</a></td></tr>
+    <tr><td><strong>Underwriting & monitoring</strong></td><td>Understand collateral diligence, account approval, and ongoing risk management.</td><td><a href="underwriting-and-risk-management.md">underwriting-and-risk-management.md</a></td></tr>
+    <tr><td><strong>Risk disclosures</strong></td><td>Assess credit, market, liquidity, peg, counterparty, regulatory, and smart-contract risks.</td><td><a href="risk-disclosures.md">risk-disclosures.md</a></td></tr>
+  </tbody>
+</table>
 
-* [What is USDX](https://medium.com/stable-inc/what-is-usdx-1726a7425d49) — product overview and motivation
-* [How Stable Manages Fed Policy Risk in USDX](https://medium.com/stable-inc/how-stable-manages-fed-policy-risk-in-usdx-98e3eef92222) — how the mortgage book is positioned against interest rate shocks
+## Further reading
 
-### Changelog
+- [What is USDX](https://medium.com/stable-inc/what-is-usdx-1726a7425d49)
+- [How Stable Manages Fed Policy Risk in USDX](https://medium.com/stable-inc/how-stable-manages-fed-policy-risk-in-usdx-98e3eef92222)
+- [Official Accounts & Contracts](../../../official-accounts.md)
 
-Pages in this section are living documents and are updated as reserves, counterparties, and protocol parameters change. The authoritative on-chain references are listed on Contract Addresses — when in doubt, verify against the chain.
-
-### Reserves
-
-Stable hosts a Reserves & Transparency page at [trystable.co/reserves](https://trystable.co/reserves) that displays a near real time report on mortgages, reserves, and the health of USDX including links to relevant addresses, collections, and documentation.
+{% hint style="warning" %}
+These are living documents. Reserve composition, counterparties, supported networks, and protocol parameters may change. Verify current values on the reserves dashboard and against the listed onchain addresses.
+{% endhint %}

@@ -1,29 +1,37 @@
 # Table of contents
 
-* [Stable Docs](README.md)
-  * [Exchange](stable-docs/exchange/README.md)
-    * [Deposit Mortgages](stable-docs/exchange/deposit-mortgages.md)
-    * [Buy Mortgages](stable-docs/exchange/buy-mortgages.md)
-    * [Liquidity Providers](stable-docs/exchange/liquidity-providers.md)
-  * [Tokenization](stable-docs/tokenization/README.md)
-    * [Tokenize Mortgages](stable-docs/tokenization/tokenize-mortgages/README.md)
-      * [Stable Underwriting Guidelines](stable-docs/tokenization/tokenize-mortgages/stable-underwriting-guidelines.md)
-    * [Tokenize Real Estate](stable-docs/tokenization/tokenize-real-estate.md)
-    * [Partner Portal](stable-docs/tokenization/partner-portal.md)
-  * [USDX](stable-docs/usdx/README.md)
-    * [How USDX Works](stable-docs/usdx/how-usdx-works/README.md)
-      * [Hedging Volatility](stable-docs/usdx/how-usdx-works/hedging-volatility.md)
-    * [Minting USDX](stable-docs/usdx/minting-usdx.md)
-    * [Redeeming USDX](stable-docs/usdx/redeeming-usdx.md)
-    * [Staking USDX](stable-docs/usdx/staking-usdx.md)
-    * [Risk & Transparency](stable-docs/usdx/risk-and-transparency/README.md)
-      * [Reserves & Proof of Reserves](stable-docs/usdx/risk-and-transparency/reserves-and-proof-of-reserves.md)
-      * [Underwriting & Risk Management](stable-docs/usdx/risk-and-transparency/underwriting-and-risk-management.md)
-      * [Risk Disclosures](stable-docs/usdx/risk-and-transparency/risk-disclosures.md)
-    * [USDX Contract Addresses](stable-docs/usdx/usdx-contract-addresses.md)
-  * [API Overview](stable-docs/api-overview/README.md)
-    * [Exchange API](stable-docs/api-overview/exchange-api.md)
-    * [USDX API](stable-docs/api-overview/usdx-api.md)
+## Protocol
+
+* [Stable Documentation](README.md)
+* [USDX](stable-docs/usdx/README.md)
+  * [How USDX Works](stable-docs/usdx/how-usdx-works/README.md)
+    * [Hedging Volatility](stable-docs/usdx/how-usdx-works/hedging-volatility.md)
+  * [Minting USDX](stable-docs/usdx/minting-usdx.md)
+  * [Redeeming USDX](stable-docs/usdx/redeeming-usdx.md)
+  * [Staking USDX](stable-docs/usdx/staking-usdx.md)
+  * [Risk & Transparency](stable-docs/usdx/risk-and-transparency/README.md)
+    * [Reserves & Proof of Reserves](stable-docs/usdx/risk-and-transparency/reserves-and-proof-of-reserves.md)
+    * [Underwriting & Risk Management](stable-docs/usdx/risk-and-transparency/underwriting-and-risk-management.md)
+    * [Risk Disclosures](stable-docs/usdx/risk-and-transparency/risk-disclosures.md)
+  * [USDX Contract Addresses](stable-docs/usdx/usdx-contract-addresses.md)
+
+## Institutions
+
+* [Tokenization](stable-docs/tokenization/README.md)
+  * [Tokenize Mortgages](stable-docs/tokenization/tokenize-mortgages/README.md)
+    * [Stable Underwriting Guidelines](stable-docs/tokenization/tokenize-mortgages/stable-underwriting-guidelines.md)
+  * [Tokenize Real Estate](stable-docs/tokenization/tokenize-real-estate.md)
+  * [Partner Portal](stable-docs/tokenization/partner-portal.md)
+* [Exchange](stable-docs/exchange/README.md)
+  * [Deposit Mortgages](stable-docs/exchange/deposit-mortgages.md)
+  * [Buy Mortgages](stable-docs/exchange/buy-mortgages.md)
+  * [Liquidity Providers](stable-docs/exchange/liquidity-providers.md)
+* [API Overview](stable-docs/api-overview/README.md)
+  * [Exchange API](stable-docs/api-overview/exchange-api.md)
+  * [USDX API](stable-docs/api-overview/usdx-api.md)
+
+## Research
+
 * [USDX Whitepaper](usdx-whitepaper/README.md)
   * [Abstract](usdx-whitepaper/abstract.md)
   * [Table of Contents](usdx-whitepaper/table-of-contents.md)
@@ -46,4 +54,7 @@
   * [Appendix A — Glossary](usdx-whitepaper/appendix-a-glossary.md)
   * [Appendix B — Key Formulas and Parameters](usdx-whitepaper/appendix-b-key-formulas-and-parameters.md)
   * [Appendix C — RATES Reference](usdx-whitepaper/appendix-c-rates-reference.md)
-* [Official Accounts](official-accounts.md)
+
+## Reference
+
+* [Official Accounts & Contracts](official-accounts.md)
