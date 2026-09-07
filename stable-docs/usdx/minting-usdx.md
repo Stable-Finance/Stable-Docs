@@ -19,7 +19,7 @@ Stable may limit accepted assets by type, jurisdiction, concentration, liquidity
 <table data-view="cards">
   <thead><tr><th></th><th></th></tr></thead>
   <tbody>
-    <tr><td><strong>Stablecoins</strong></td><td>Swap approved assets such as USDC or USDT for USDX through the app, subject to network availability.</td></tr>
+    <tr><td><strong>Stablecoins</strong></td><td>Swap approved assets for USDX through the app, subject to network availability. Accepted assets vary by network &#x2014; USDC or USDT on most chains, and USDG (Global Dollar) on Robinhood Chain.</td></tr>
     <tr><td><strong>Mortgages</strong></td><td>Approved partners may deposit eligible residential, commercial, farm, or land loans after underwriting.</td></tr>
     <tr><td><strong>Mortgage-backed securities</strong></td><td>Eligible agency, private-label, partner-issued, or Stable-tokenized MBS may be accepted after review.</td></tr>
     <tr><td><strong>Real estate equity</strong></td><td>Approved tokenized property equity may support a conditional line of credit for on-demand USDX issuance.</td></tr>

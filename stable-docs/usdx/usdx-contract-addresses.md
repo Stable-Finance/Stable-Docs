@@ -16,12 +16,26 @@ These are the official contract addresses of USDX and EURX for the mainnet netwo
 | Monad              | [0xd0a4BDb0422DB3fA77dC46189b6d043D2cd5A7B9](https://monadscan.com/token/0xd0a4BDb0422DB3fA77dC46189b6d043D2cd5A7B9)  |
 | Solana             | [9Gst2E7KovZ9jwecyGqnnhpG1mhHKdyLpJQnZonkCFhA](https://solscan.io/token/9Gst2E7KovZ9jwecyGqnnhpG1mhHKdyLpJQnZonkCFhA) |
 | Ethereum           | [0xfea577f08d1984e6654813be0acee3140e5d7d42](https://etherscan.io/token/0xfea577f08d1984e6654813be0acee3140e5d7d42)   |
+| Robinhood Chain    | [0x44d6B2EfF8242875d2B640fe3805ABf866614CB3](https://robinhoodchain.blockscout.com/token/0x44d6B2EfF8242875d2B640fe3805ABf866614CB3) |
+| Arbitrum One       | [0x44d6B2EfF8242875d2B640fe3805ABf866614CB3](https://arbiscan.io/token/0x44d6B2EfF8242875d2B640fe3805ABf866614CB3) |
 
 #### Mortgage NFT Collection
 
 * **Stable Home Debt NFT Collection** — [`AQ5V6TFPGCJpoVJVEQzNTJQYHsf8y1AJHxj94cSWLY93`](https://magiceden.io/marketplace/AQ5V6TFPGCJpoVJVEQzNTJQYHsf8y1AJHxj94cSWLY93)
 
 Metaplex certified collection; members are verified on-chain. Derived as a PDA of the USDX Token Program. Members are enumerable via DAS or by viewing the collection on Solscan / Magic Eden.
+
+#### Robinhood Chain Liquidity (Uniswap v4)
+
+USDX/USDG liquidity on Robinhood Chain sits in a Uniswap **v4** pool. A v4 pool is not its own contract &#x2014; every pool on the chain lives inside one PoolManager and is identified by a 32-byte pool ID, so there is no pool address to look up. Read pool state via StateView and positions via PositionManager, using the pool ID. The PoolManager's balances cover every v4 pool on the chain, not this one.
+
+| Item | Value |
+| ---- | ----- |
+| Pool ID | `0x13d2df19a76a612c550ea591636bd8943d17c98e6d252967f55bbddc8eff7b36` |
+| Pair / fee | USDX / USDG, 0.01% (fee 100, tick spacing 1, no hooks) |
+| PoolManager | [0x8366a39CC670B4001A1121B8F6A443A643e40951](https://robinhoodchain.blockscout.com/address/0x8366a39CC670B4001A1121B8F6A443A643e40951) |
+| StateView | [0xf3334192d15450cdd385c8b70e03f9a6bd9e673b](https://robinhoodchain.blockscout.com/address/0xf3334192d15450cdd385c8b70e03f9a6bd9e673b) |
+| PositionManager | [0x58daec3116aae6d93017baaea7749052e8a04fa7](https://robinhoodchain.blockscout.com/address/0x58daec3116aae6d93017baaea7749052e8a04fa7) |
 
 #### mUSDX (Staked USDX)
 
@@ -67,6 +81,7 @@ SP for trading and/or providing liquidity to DEX pools can be earned by providin
 | Monad      | Uniswap   | USDC/USDX  | [0xdE6EB765B2cc7E16D03039C7d0ea48C3A7F05305](https://app.uniswap.org/explore/pools/monad/0xdE6EB765B2cc7E16D03039C7d0ea48C3A7F05305)                                                                                                                                          |
 | Monad      | Uniswap   | MON/USDX   | [0x638de8d2F2fab07161c071F5f9CAcE2F7f8cf806](https://app.uniswap.org/explore/pools/monad/0x638de8d2F2fab07161c071F5f9CAcE2F7f8cf806)                                                                                                                                          |
 | Base       | Aerodrome | EURC/EURX  | [0xdbb73e4767f1f7001be2b0046ac212c2849d9de6](https://aero.drome.eth.limo/deposit?token0=0x60a3e35cc302bfa44cb288bc5a4f316fdb1adb42\&token1=0x81f2678d8a08c40c50d90d2d8af7a574ed957fc3\&type=10\&chain0=8453\&chain1=8453\&factory=0xaDe65c38CD4849aDBA595a4323a8C7DdfE89716a) |
+| Robinhood  | Uniswap   | USDX/USDG  | Uniswap v4 pool ID `0x13d2df19a76a612c550ea591636bd8943d17c98e6d252967f55bbddc8eff7b36` (v4 pools have no address; see Robinhood Chain Liquidity above) |
 
 ## Reserves
 

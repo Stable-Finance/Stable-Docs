@@ -56,4 +56,4 @@ USDX on Solana is made up of multiple Anchor programs listed on Contract Address
 
 ### Chain isolation
 
-USDX on Monad, Base, and Ethereum has treasury reserves isolated per chain and is not bridgeable to or from Solana today. Risks affecting those deployments are not in scope for this page and do not affect Solana USDX holders.
+USDX on Monad, Base, Ethereum, Robinhood Chain, and Arbitrum One has treasury reserves isolated per chain and is not bridgeable to or from Solana today. Risks affecting those deployments are not in scope for this page and do not affect Solana USDX holders.

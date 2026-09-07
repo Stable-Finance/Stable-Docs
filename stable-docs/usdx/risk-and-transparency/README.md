@@ -11,7 +11,7 @@ This section documents what backs USDX, how collateral is underwritten and monit
 <a href="https://trystable.co/reserves" class="button primary">View live reserves</a> <a href="../../../official-accounts.md#mainnet-contract-addresses" class="button secondary">Verify contracts</a>
 
 {% hint style="info" %}
-Unless noted otherwise, this section describes **USDX on Solana**. Deployments on Base, Monad, and Ethereum are treasury-isolated by chain and are not currently bridgeable to or from Solana.
+Unless noted otherwise, this section describes **USDX on Solana**. Deployments on Base, Monad, Ethereum, Robinhood Chain, and Arbitrum One are treasury-isolated by chain and are not currently bridgeable to or from Solana.
 {% endhint %}
 
 ## Evaluate the protocol
