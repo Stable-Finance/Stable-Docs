@@ -2,7 +2,7 @@
 
 ### Scope
 
-This page describes reserves backing **USDX on Solana**. USDX is also deployed to Base, Monad, and Ethereum, but those deployments are treasury-isolated per chain and are not bridgeable to or from Solana today, so Solana USDX is backed only by reserves held on behalf of Solana USDX holders.
+This page describes reserves backing **USDX on Solana**. USDX is also deployed to Base, Monad, Ethereum, Robinhood Chain, and Arbitrum One, but those deployments are treasury-isolated per chain and are not bridgeable to or from Solana today, so Solana USDX is backed only by reserves held on behalf of Solana USDX holders.
 
 ### Reserve composition
 
