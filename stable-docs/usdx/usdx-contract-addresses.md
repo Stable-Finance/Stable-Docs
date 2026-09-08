@@ -69,7 +69,8 @@ SP for trading and/or providing liquidity to DEX pools can be earned by providin
 | Monad      | Uniswap   | USDC/USDX  | [0xdE6EB765B2cc7E16D03039C7d0ea48C3A7F05305](https://app.uniswap.org/explore/pools/monad/0xdE6EB765B2cc7E16D03039C7d0ea48C3A7F05305)                                                                                                                                          |
 | Monad      | Uniswap   | MON/USDX   | [0x638de8d2F2fab07161c071F5f9CAcE2F7f8cf806](https://app.uniswap.org/explore/pools/monad/0x638de8d2F2fab07161c071F5f9CAcE2F7f8cf806)                                                                                                                                          |
 | Base       | Aerodrome | EURC/EURX  | [0xdbb73e4767f1f7001be2b0046ac212c2849d9de6](https://aero.drome.eth.limo/deposit?token0=0x60a3e35cc302bfa44cb288bc5a4f316fdb1adb42\&token1=0x81f2678d8a08c40c50d90d2d8af7a574ed957fc3\&type=10\&chain0=8453\&chain1=8453\&factory=0xaDe65c38CD4849aDBA595a4323a8C7DdfE89716a) |
-| Robinhood  | Uniswap   | USDX/USDG  | [0x13d2df19a76a612c550ea591636bd8943d17c98e6d252967f55bbddc8eff7b36](https://app.uniswap.org/explore/pools/robinhood/0x13d2df19a76a612c550ea591636bd8943d17c98e6d252967f55bbddc8eff7b36) |
+| Robinhood  | Uniswap   | USDX/USDG  | [0x769D16d9ff247f5fC4d686006Fa0e25eCf240368](https://app.uniswap.org/explore/pools/robinhood/0x769D16d9ff247f5fC4d686006Fa0e25eCf240368) |
+| Robinhood  | Uniswap   | ETH/USDX   | [0x168cB617343e2CE1C9932ae4e30B31fbdFF88D94](https://app.uniswap.org/explore/pools/robinhood/0x168cB617343e2CE1C9932ae4e30B31fbdFF88D94) |
 
 ## Reserves
 
