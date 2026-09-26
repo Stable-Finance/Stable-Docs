@@ -88,9 +88,9 @@ Addresses for USDX mainnet deployments are listed below by network.
 
 Addresses for Staked USDX (mUSDX) mainnet deployments are listed below by network.
 
-| Blockchain Network | mUSDX Mainnet Address                        | Block Explorer Link                                                                 | Trade Terminal Link                                                          |
-| ------------------ | -------------------------------------------- | ----------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| Solana             | 3RyhjAivYTA1VyXJUG1qXgCLHq4zBvbD9B6bcrcDnKB9 | [solscan.io](https://solscan.io/token/3RyhjAivYTA1VyXJUG1qXgCLHq4zBvbD9B6bcrcDnKB9) | [jup.ag](https://jup.ag/tokens/3RyhjAivYTA1VyXJUG1qXgCLHq4zBvbD9B6bcrcDnKB9) |
+| Blockchain Network | mUSDX Mainnet Address                        | Block Explorer Link                                                                 | Trade Terminal Link                                                          | Active Liquidity Support from Stable |
+| ------------------ | -------------------------------------------- | ----------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------------------ |
+| Solana             | 3RyhjAivYTA1VyXJUG1qXgCLHq4zBvbD9B6bcrcDnKB9 | [solscan.io](https://solscan.io/token/3RyhjAivYTA1VyXJUG1qXgCLHq4zBvbD9B6bcrcDnKB9) | [jup.ag](https://jup.ag/tokens/3RyhjAivYTA1VyXJUG1qXgCLHq4zBvbD9B6bcrcDnKB9) | Yes                                  |
 
 ### EURX
 
