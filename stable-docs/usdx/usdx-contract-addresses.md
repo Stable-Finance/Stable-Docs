@@ -50,6 +50,8 @@ These are the official contract addresses of USDX and EURX price feed oracles fo
 
 Stable Points (SP) are a way for users to be recognized for participating in Stable's ecosystem. You can read more about Stable's Point Program on [Medium](https://medium.com/stable-inc/why-we-built-the-stable-points-program-b0398141c0ff).&#x20;
 
+Season 2 is live from October 29, 2026 through January 31, 2027, and every Season 1 point carried over. Season 2 rates and multipliers are on [Official Accounts](../../official-accounts.md#stable-points).
+
 For SP earned outside of DEX Pools, here is how it works:
 
 * SP for minting USDX or EURX is earned by minting through any combination of supported swaps on any supported chain thru app.trystable.co/swap
