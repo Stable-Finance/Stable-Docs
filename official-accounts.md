@@ -160,7 +160,7 @@ Two multipliers apply to points earned from Solana activity. They multiply each 
 
 Season 1 ran from the launch of the points program in 2025 until October 29, 2026 at 06:39 UTC. At the close, 7,013 wallets held 170,433,540 points. Every one of those points carried into Season 2 unchanged.
 
-In Season 1, swaps earned 1% per $1 of volume, holding USDX, mUSDX or EURX earned 10% per $1 per day, minting and LP earned 1 point per $1 (LP per day), redeeming earned nothing, and holding 100,000 STABLE or more doubled most points.
+In Season 1, swaps earned 1% per $1 of volume, holding USDX, mUSDX or EURX earned 10% per $1 per day, minting and LP earned 1 point per $1 (LP per day), redeeming earned nothing, and holding STABLE gave a flat 2x on most points.
 
 #### Stable Points for Trading and Liquidity
 
